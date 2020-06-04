@@ -1,19 +1,27 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, {Component} from 'react'
+import {View, Text, StyleSheet} from 'react-native'
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Welcome</Text>
-    </View>
-  );
+class repositorioo extends Component {
+    render(){
+
+        return(
+            <View style={styles.container}>
+                <Text>Hola </Text>
+            </View>
+        )
+
+    }
+
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+    container : {
+        flex : 1,
+        justifyContent : 'center',
+        alignItems : 'center',
+        backgroundColor : 'white'
+
+    }
+})
+
+export default repositorioo
