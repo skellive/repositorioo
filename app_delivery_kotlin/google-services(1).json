@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "327041453386",
+    "firebase_url": "https://aappreactivefastcorv.firebaseio.com",
+    "project_id": "aappreactivefastcorv",
+    "storage_bucket": "aappreactivefastcorv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327041453386:android:1f4142a1917268228585b3",
+        "android_client_info": {
+          "package_name": "com.kotlin.app_delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327041453386-m48cmdahlrdfv3kasd2q2375t3737h5q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kotlin.app_delivery",
+            "certificate_hash": "3eb1b5ddd3162b31586890ef4bb97ee283987297"
+          }
+        },
+        {
+          "client_id": "327041453386-25h0bdthim0tooddsnaukm2gskf8h01v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoLFpjGiAbNvvF7KDqlV7yd9upUe7ieEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327041453386-25h0bdthim0tooddsnaukm2gskf8h01v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
