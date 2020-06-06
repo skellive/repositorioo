@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FASTCORV</string>
+    <string name="log_usuario">User</string>
+    <string name="log_password">Password</string>
 </resources>
