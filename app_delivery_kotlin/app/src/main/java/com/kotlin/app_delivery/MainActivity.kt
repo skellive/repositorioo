@@ -9,18 +9,15 @@ import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_register_page.*
 
 
-enum class ProviderType{
-    BASIC
-}
+
 
 class MainActivity : AppCompatActivity() {
 
-    private var mAuth: FirebaseAuth? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
 
 
         setTheme(R.style.AppTheme)
-        mAuth = FirebaseAuth.getInstance()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
@@ -60,11 +57,11 @@ class MainActivity : AppCompatActivity() {
 
 
     private fun showLogin(email: String, provider: ProviderType){
-        val MainIntent = Intent(this, MainActivity::class.java).apply {
+        val AuthIntent = Intent(this, AuthActivity::class.java).apply {
             putExtra("email", email)
             putExtra("provider", provider.name)
         }
-        startActivity(MainIntent)
+        startActivity(AuthIntent)
 
 
     }

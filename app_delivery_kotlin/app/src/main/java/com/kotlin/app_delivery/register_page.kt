@@ -49,7 +49,7 @@ class register_page : AppCompatActivity() {
 
 
     private fun showLogin(email: String, provider: ProviderType){
-        val MainIntent = Intent(this, MainActivity::class.java).apply {
+        val MainIntent = Intent(this, AuthActivity::class.java).apply {
             putExtra("email", email)
             putExtra("provider", provider.name)
         }
