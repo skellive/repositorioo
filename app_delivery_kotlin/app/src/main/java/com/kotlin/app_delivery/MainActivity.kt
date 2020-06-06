@@ -9,6 +9,9 @@ class MainActivity : AppCompatActivity() {
 
     private var mAuth: FirebaseAuth? = null
     override fun onCreate(savedInstanceState: Bundle?) {
+
+
+        setTheme(R.style.AppTheme)
         mAuth = FirebaseAuth.getInstance()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

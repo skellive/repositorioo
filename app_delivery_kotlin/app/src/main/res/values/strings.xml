@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">FASTCORV</string>
+    <string name="email">Usuario o Correo</string>
+    <string name="pass">Contaseña</string>
+    <string name="txtRecuContra">Olvidaste la contraseña?</string>
+    <string name="btn">Inciar Sesion</string>
+    <string name="txtRegister">Registrate aqui</string>
+    <string name="help">Ayuda?</string>
+    <string name="register">Registrar</string>
+    <string name="name">Nombre:</string>
+    <string name="lastName">Apellidos:</string>
+    <string name="numer">Numero de Telefono:</string>
+    <string name="correo">Correo:</string>
+    <string name="date">Fecha de nacimiento:</string>
+    <string name="direccion">Direccion:</string>
+    <string name="passw">Contraseña:</string>
+    <string name="pass2">Confirme la contraseña:</string>
+    <string name="btnR">Continuar</string>
 </resources>
