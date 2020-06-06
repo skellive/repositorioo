@@ -3,11 +3,14 @@
     <item android:drawable="@color/colorBackground"
         android:gravity="center_vertical"/>
     <item>
-        <bitmap
-            android:layout_width="48sp"
-            android:layout_height="15dp"
-            android:gravity="center"
-            android:src="@drawable/icon4" />
+
+
+            <bitmap
+                android:layout_width="48sp"
+                android:layout_height="15dp"
+                android:gravity="center"
+                android:src="@drawable/icon4" />
+
 
 
 

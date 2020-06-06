@@ -28,7 +28,7 @@
         android:layout_marginRight="32dp"
         android:ems="10"
         android:hint="@string/email"
-        android:inputType="textPersonName"
+        android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
 
@@ -52,7 +52,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button2_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -83,7 +83,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imageButton2_google"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="23dp"
@@ -94,12 +94,12 @@
         android:background="@drawable/btn_google"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintStart_toEndOf="@+id/imageButton_facebook"
+        app:layout_constraintTop_toBottomOf="@+id/button2_login"
         app:srcCompat="@drawable/googleicon" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButton_facebook"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="138dp"
@@ -109,9 +109,9 @@
         android:layout_marginRight="23dp"
         android:background="@drawable/btn_facebook"
         android:scaleType="fitCenter"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton2_google"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button2_login"
         app:srcCompat="@drawable/facebook" />
 
     <TextView
@@ -123,7 +123,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.949"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2_google"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
