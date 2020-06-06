@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.kotlin.app_delivery">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,8 +14,13 @@
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
         <activity android:name=".register_page"></activity>
         <activity
+<<<<<<< HEAD
             android:name=".MainActivity"
             android:theme="@style/SplashTheme">
+=======
+            android:label="@string/app_name"
+            android:name="com.kotlin.app_delivery.AuthActivity">
+>>>>>>> 6222f67c5e843a7624824e1c77767662ec862904
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
