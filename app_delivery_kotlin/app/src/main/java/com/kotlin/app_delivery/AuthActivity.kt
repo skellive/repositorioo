@@ -24,7 +24,7 @@ class AuthActivity : AppCompatActivity() {
         val email = bundle?.getString("email")
         val provider = bundle?.getString("provider")
 
-        setup()
+        setup(email ?: "", provider ?: "")
 
     }
 
