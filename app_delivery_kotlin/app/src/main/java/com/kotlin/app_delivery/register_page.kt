@@ -18,16 +18,16 @@ class register_page : AppCompatActivity() {
     }
 
     private fun setup() {
-
+        val usuario = editTextTextPersonName4.text.toString()
+        val password = editTextTextPassword2.text.toString()
+        val confPass = editTextTextPassword3.text.toString()
         title = "Autenticacion"
         button_continuar_registro.setOnClickListener {
-            if (editTextTextPersonName4.text.isNotEmpty() && editTextTextPassword2.text.isNotEmpty() && editTextTextPassword3.text.isNotEmpty()) {
-                if (editTextTextPassword2.text.toString()
-                        .equals(editTextTextPassword3.text.toString())
-                ) {
+            if (usuario.isNotEmpty() && password.isNotEmpty() && confPass.isNotEmpty()) {
+                if (password.equals(confPass)) {
                     FirebaseAuth.getInstance()
-                        .createUserWithEmailAndPassword(editTextTextPersonName4.text.toString(),
-                            editTextTextPassword2.text.toString()).addOnCompleteListener {
+                        .createUserWithEmailAndPassword(usuario,
+                            password).addOnCompleteListener {
                             if (it.isSuccessful){
                                     showLogin(it.result?.user?.email ?:"", ProviderType.BASIC)
 
