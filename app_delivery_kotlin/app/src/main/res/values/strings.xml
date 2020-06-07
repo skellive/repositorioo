@@ -21,4 +21,10 @@
     <string name="log_usuario">User</string>
     <string name="log_password">Password</string>
 
+    <string name="txtLocation">Ubicacion</string>
+    <string name="txtVubi">Direccion o Ubicacion:</string>
+    <string name="btnUbi">Aceptar</string>
+    <string name="hepU">Ayuda?</string>
+
+
 </resources>
