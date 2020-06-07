@@ -23,7 +23,7 @@ class register_page : AppCompatActivity() {
         val confPass = editTextTextPassword3.text.toString()
         title = "Autenticacion"
         button_continuar_registro.setOnClickListener {
-            if (usuario.isNotEmpty() && password.isNotEmpty() && confPass.isNotEmpty()) {
+            if (editTextTextPersonName4.text.isNotEmpty() && editTextTextPassword2.text.isNotEmpty() && editTextTextPassword3.text.isNotEmpty()) {
                 if (password.equals(confPass)) {
                     FirebaseAuth.getInstance()
                         .createUserWithEmailAndPassword(usuario,
